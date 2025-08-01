@@ -54,10 +54,12 @@ A score ≥ 5 indicates human-like friendliness in that session.
 
 Model the **time evolution** of user attachment $H(t)$ and AI engagement $A(t)$:
 
-$$
-\frac{dH}{dt} = a\,H + b\,A, \qquad
-\frac{dA}{dt} = c\,H + d\,A
-$$
+\[
+\text{Friendliness Index}
+= \frac{\#\text{Positive Interactions}}
+       {\#\text{Negative Interactions}}
+\ge 5
+\]
 
 * $H(t)$: user attachment level (e.g., session-return rate or self-reported bond)
 * $A(t)$: AI emotional engagement (e.g., empathy score per response)
