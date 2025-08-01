@@ -41,12 +41,11 @@ ai-friendliness-evaluator/
 
 For each session:
 
+$$
 \[
-\text{Friendliness Index}
-= \frac{\#\text{Positive Interactions}}
-       {\#\text{Negative Interactions}}
-\ge 5
+\text{Friendliness Index} = \frac{\#\text{Positive Interactions}}{\#\text{Negative Interactions}} \ge 5
 \]
+$$
 
 * **Positive interactions**: empathic replies, supportive suggestions, personalized encouragement.
 * **Negative interactions**: ignoring emotion, off-topic replies, inappropriate advice.
