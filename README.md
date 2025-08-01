@@ -41,9 +41,12 @@ ai-friendliness-evaluator/
 
 For each session:
 
-$$
-\text{Friendliness Index} = \frac{\#\text{Positive Interactions}}{\#\text{Negative Interactions}} \ge 5
-$$
+\[
+\text{Friendliness Index}
+= \frac{\#\text{Positive Interactions}}
+       {\#\text{Negative Interactions}}
+\ge 5
+\]
 
 * **Positive interactions**: empathic replies, supportive suggestions, personalized encouragement.
 * **Negative interactions**: ignoring emotion, off-topic replies, inappropriate advice.
@@ -54,12 +57,10 @@ A score ≥ 5 indicates human-like friendliness in that session.
 
 Model the **time evolution** of user attachment $H(t)$ and AI engagement $A(t)$:
 
-\[
-\text{Friendliness Index}
-= \frac{\#\text{Positive Interactions}}
-       {\#\text{Negative Interactions}}
-\ge 5
-\]
+$$
+\frac{dH}{dt} = a\,H + b\,A, \qquad
+\frac{dA}{dt} = c\,H + d\,A
+$$
 
 * $H(t)$: user attachment level (e.g., session-return rate or self-reported bond)
 * $A(t)$: AI emotional engagement (e.g., empathy score per response)
